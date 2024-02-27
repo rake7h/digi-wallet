@@ -1,2 +1,2 @@
 # digi-wallet
-Offline first digital wallet PWA
+Offline first digital wallet app
