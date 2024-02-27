@@ -8,14 +8,5 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
-  },
-  "dependencies": {
-    "@digi-wallet/cool-package": "*",
-    "@types/react": "~18.2.45",
-    "expo": "~50.0.8",
-    "expo-status-bar": "~1.11.1",
-    "react": "18.2.0",
-    "react-native": "0.73.4",
-    "typescript": "^5.3.0"
   }
 }

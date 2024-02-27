@@ -1,13 +1,22 @@
-import { greeting } from '@digi-wallet/cool-package';
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Text, View } from 'react-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { StyleSheet } from 'react-native';
 
-export default function App() {
+import { TabNavigator } from './navigation/tabs';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
+
+export function App() {
+
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>{greeting}</Text>
-      <StatusBar style="auto" />
-    </View>
+   
+        <GestureHandlerRootView style={styles.container}>
+          <TabNavigator />
+        </GestureHandlerRootView>
+     
   );
 }
