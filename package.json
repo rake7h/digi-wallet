@@ -1,0 +1,15 @@
+{
+    "name": "digi-wallet",
+    "private": true,
+    "scripts": {
+        "dev": "yarn workspace @digi-wallet/app run start"
+    },
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "devDependencies": {
+        "@babel/core": "^7.20.0"
+    },
+    "packageManager": "yarn@4.1.0"
+}
