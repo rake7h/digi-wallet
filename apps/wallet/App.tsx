@@ -1,8 +1,8 @@
-import React from 'react';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { StyleSheet } from 'react-native';
+import React from "react";
+import { StyleSheet } from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
-import { TabNavigator } from './navigation/tabs';
+import { TabNavigator } from "./navigation/tabs";
 
 const styles = StyleSheet.create({
   container: {
@@ -11,12 +11,9 @@ const styles = StyleSheet.create({
 });
 
 export function App() {
-
   return (
-   
-        <GestureHandlerRootView style={styles.container}>
-          <TabNavigator />
-        </GestureHandlerRootView>
-     
+    <GestureHandlerRootView style={styles.container}>
+      <TabNavigator />
+    </GestureHandlerRootView>
   );
 }

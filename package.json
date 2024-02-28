@@ -2,7 +2,8 @@
     "name": "digi-wallet",
     "private": true,
     "scripts": {
-        "dev": "yarn workspace @digi-wallet/app run start"
+        "dev": "yarn workspace @digi-wallet/app run start",
+        "lint": "eslint ."
     },
     "packageManager": "yarn@4.1.0",
     "workspaces": [
@@ -12,10 +13,10 @@
     "devDependencies": {
         "@babel/core": "^7.20.0",
         "@types/react": "~18.2.45",
-        "typescript": "^5.1.3",
         "eslint": "^8.57.0",
         "eslint-config-universe": "^12.0.0",
-        "prettier": "^3.2.5"
+        "prettier": "^3.2.5",
+        "typescript": "^5.1.3"
     },
     "dependencies": {
         "@digi-wallet/theme": "*",
