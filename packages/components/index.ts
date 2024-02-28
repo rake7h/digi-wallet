@@ -1,1 +1,2 @@
-export const greeting = 'Hello!';
+export { Button } from './button';
+export { InputWithLabel } from './input';
