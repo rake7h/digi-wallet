@@ -1,8 +1,8 @@
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import React from "react";
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import React from 'react';
 
-import { NAVIGATION } from "../../constants/navigations";
-import { HomeCardsScreen } from "../../screens/card-home";
+import { NAVIGATION } from '../../constants/navigations';
+import { HomeCardsScreen } from '../../screens/card-home';
 
 const Stack = createNativeStackNavigator();
 

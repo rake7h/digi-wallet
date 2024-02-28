@@ -1,8 +1,8 @@
-import React from "react";
-import { StyleSheet } from "react-native";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
+import React from 'react';
+import { StyleSheet } from 'react-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
-import { TabNavigator } from "./navigation/tabs";
+import { TabNavigator } from './navigation/tabs';
 
 const styles = StyleSheet.create({
   container: {

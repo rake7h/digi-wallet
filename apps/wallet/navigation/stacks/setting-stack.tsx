@@ -1,8 +1,8 @@
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import React from "react";
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import React from 'react';
 
-import { NAVIGATION } from "../../constants/navigations";
-import { SettingScreen } from "../../screens";
+import { NAVIGATION } from '../../constants/navigations';
+import { SettingScreen } from '../../screens';
 
 const Stack = createNativeStackNavigator();
 
@@ -12,7 +12,7 @@ export function SettingStack() {
       <Stack.Screen
         name={NAVIGATION.SETTING}
         component={SettingScreen}
-        options={{ title: "Settings" }}
+        options={{ title: 'Settings' }}
       />
     </Stack.Navigator>
   );
