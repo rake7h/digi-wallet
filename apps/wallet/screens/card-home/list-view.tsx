@@ -5,7 +5,6 @@ import { styles } from "./styles";
 
 const CardList = ({ data }) => {
   const cardData = data;
-
   const renderItem = ({ item }) => (
     <View style={styles.cardContainer}>
       <>

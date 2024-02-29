@@ -11,26 +11,21 @@ const darkPalette = {
 export const theme = {
   light: {
     ...DefaultTheme,
-    colors: {
-      ...DefaultTheme.colors,
-      primary: "rgb(0, 122, 255)",
-      background: "rgb(242, 242, 242)",
-      card: "rgb(255, 255, 255)",
-      text: "rgb(28, 28, 30)",
-      border: "rgb(216, 216, 216)",
-      notification: "rgb(255, 59, 48)",
-    },
+    tabBG: "#fff",
   },
   dark: {
     ...DarkTheme,
     colors: {
       ...DarkTheme.colors,
-      primary: "rgb(0, 122, 255)",
+      primary: darkPalette.yellow,
       background: darkPalette.darkBlack,
-      card: "rgb(255, 255, 255)",
-      text: "rgb(28, 28, 30)",
-      border: "rgb(216, 216, 216)",
-      notification: "rgb(255, 59, 48)",
+      card: darkPalette.gray2,
+      text: darkPalette.black,
+      border: darkPalette.gray1,
+      notification: darkPalette.yellow,
+      activeTab: darkPalette.yellow,
+      inactiveTab: darkPalette.gray2,
+      tabBG: darkPalette.black,
     },
   },
 };
