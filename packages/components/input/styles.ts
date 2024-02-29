@@ -6,13 +6,17 @@ export const styles = StyleSheet.create({
  },
  label: {
   fontSize: 16,
-  marginBottom: 5,
+  marginBottom: 8,
+  fontWeight: 'bold',
  },
  input: {
   borderWidth: 1,
   borderColor: '#ccc',
   borderRadius: 5,
-  padding: 10,
+  paddingTop: 12,
+  paddingBottom: 12,
+  paddingRight: 10,
+  paddingLeft: 10,
   fontSize: 18,
  },
 });

@@ -27,44 +27,34 @@ const CreditCardAddForm = () => {
  return (
   <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
    <View style={styles.container}>
-    <View style={styles.inputContainer}>
-     <Text>Card Number</Text>
-     <InputWithLabel
-      label="Card Number"
-      style={styles.input}
-      value={cardNumber}
-      onChangeText={(text) => setCardNumber(text)}
-      placeholder="1234 5678 9012 3456"
-      keyboardType="numeric"
-      maxLength={16}
-      required
-     />
-    </View>
-    <View style={styles.inputContainer}>
-     <Text>Expiry Date</Text>
-     <TextInput
-      style={styles.input}
-      value={expiryDate}
-      onChangeText={(text) => setExpiryDate(text)}
-      placeholder="MM/YY"
-      keyboardType="numeric"
-      maxLength={5}
-      required
-     />
-    </View>
-    <View style={styles.inputContainer}>
-     <Text>CVC</Text>
-     <TextInput
-      style={styles.input}
-      value={cvc}
-      onChangeText={(text) => setCVC(text)}
-      placeholder="123"
-      keyboardType="numeric"
-      maxLength={3}
-      required
-     />
-    </View>
-    <Button title="Submit" onPress={handleSubmit} />
+    <InputWithLabel
+     label="Card Number"
+     value={cardNumber}
+     onChangeText={(text) => setCardNumber(text)}
+     placeholder="1234 5678 9012 3456"
+     keyboardType="numeric"
+     maxLength={16}
+     required
+    />
+    <InputWithLabel
+     label="Expiry"
+     value={expiryDate}
+     onChangeText={(text) => setExpiryDate(text)}
+     placeholder="12/26"
+     keyboardType="numeric"
+     maxLength={16}
+     required
+    />
+    <InputWithLabel
+     label="CVV"
+     value={cvc}
+     onChangeText={(text) => setCVC(text)}
+     placeholder="123"
+     keyboardType="numeric"
+     maxLength={16}
+     required
+    />
+    <Button title="Submit" size="large" onPress={handleSubmit} />
    </View>
   </TouchableWithoutFeedback>
  );
