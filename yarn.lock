@@ -4683,6 +4683,8 @@ __metadata:
     eslint: "npm:^8.57.0"
     eslint-config-universe: "npm:^12.0.0"
     expo: "npm:~50.0.8"
+    expo-image: "npm:1.10.6"
+    expo-linear-gradient: "npm:^12.7.2"
     expo-status-bar: "npm:~1.11.1"
     find-yarn-workspace-root: "npm:^2.0.0"
     prettier: "npm:^3.2.5"
@@ -5421,12 +5423,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"expo-image@npm:1.10.6":
+  version: 1.10.6
+  resolution: "expo-image@npm:1.10.6"
+  dependencies:
+    "@react-native/assets-registry": "npm:~0.73.1"
+  peerDependencies:
+    expo: "*"
+  checksum: 10c0/dc9e37eb25958304a33ec46f74348070bc702d70a77febd6d150325d211077e912dd79ed203abf5826ba01c7a0ce8db66f2a7431652892d36443583fca43090b
+  languageName: node
+  linkType: hard
+
 "expo-keep-awake@npm:~12.8.2":
   version: 12.8.2
   resolution: "expo-keep-awake@npm:12.8.2"
   peerDependencies:
     expo: "*"
   checksum: 10c0/d3699129ae1d536787f0e84f0e9e4cf5c1c99a6f8396057db6319de6485f8a832b98902aa13d71973c75fb9067b36290b1e9947a3fae79e6bf46348cf72c2ee5
+  languageName: node
+  linkType: hard
+
+"expo-linear-gradient@npm:^12.7.2":
+  version: 12.7.2
+  resolution: "expo-linear-gradient@npm:12.7.2"
+  peerDependencies:
+    expo: "*"
+  checksum: 10c0/08701b3aaad7a063da034fe778821453d0bde50b62d54a6a131ab7ffd270422e9f12461846350a6e6bad0165cdf286150ad86e1307fc1712aabe16e0513ec937
   languageName: node
   linkType: hard
 

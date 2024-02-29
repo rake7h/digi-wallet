@@ -1,1 +1,3 @@
-export const greeting = 'Hello!';
+export const greeting = "Hello!";
+
+export * from "./mock";

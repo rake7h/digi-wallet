@@ -1,14 +1,11 @@
 import React from "react";
-import { Button, Text, View } from "react-native";
+import { mock } from "@digi-wallet/store";
+import { CardList } from "./list-view";
 
-function HomeBankScreen({ navigation }) {
-  return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Text>Details Screen</Text>
-      <Button title="Go to Home" onPress={() => navigation.navigate("Home")} />
-      <Button title="Go back" onPress={() => navigation.goBack()} />
-    </View>
-  );
-}
+const HomeBankScreen = () => {
+  const cardData = mock.data.bank;
+
+  return <CardList data={cardData} />;
+};
 
 export { HomeBankScreen };
